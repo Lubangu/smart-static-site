@@ -1,8 +1,19 @@
+# Ignore compiled JavaScript files
 *.js
 !jest.config.js
-*.d.ts
-node_modules
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
+# TypeScript declaration files
+*.d.ts
+
+# Node modules
+node_modules/
+
+# CDK asset staging directories
+cdk.out/
+.cdk.staging/
+
+# Environment files
+.env
+
+# Log files
+*.log
